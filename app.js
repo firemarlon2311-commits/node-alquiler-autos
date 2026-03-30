@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 require('dotenv').config();
 
-const alquilerR = require('./routes/alquilerroutes');
-const autosR = require('./routes/autosroutes');
-const clientesR = require('./routes/clienteroutes');
+const alquilerR = require('./routes/alquilerRoutes');
+const autosR = require('./routes/autosRoutes');
+const clientesR = require('./routes/clientesRoutes');
 
 // Definir el puerto con un valor predeterminado
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 6001;
 
 // Middleware para analizar JSON
 app.use(express.json());
