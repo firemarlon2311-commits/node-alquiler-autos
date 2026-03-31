@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const alquilerController = require('../controller/alquilercontroller');
+const alquilerController = require('../controller/alquilerController');
 
 // Ruta para registrar un nuevo alquiler
 router.post('/', alquilerController.realizarAlquiler);
