@@ -6,6 +6,6 @@ const alquilerController = require('../controller/alquilercontroller');
 router.post('/', alquilerController.realizarAlquiler);
 
 // Ruta para obtener el historial de alquileres
-router.get('/historial', alquilerController.historial);
+router.get('/', alquilerController.historial);
 
 module.exports = router;
